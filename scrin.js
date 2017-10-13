@@ -3,7 +3,7 @@ var phantom = require("phantom");
 var fs = require('fs');
 var Dropbox = require('dropbox');
 
-var ACCESS_TOKEN = 'ACCESS_TOKEN;
+var ACCESS_TOKEN = 'ACCESS_TOKEN';
 var dbx = new Dropbox({ accessToken: ACCESS_TOKEN });
 var countNewsYandex=5;
 
